@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+ 
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+   
+
+
+}
+ 
+.container{
+    width: 80vw;
+     height: 80vh;
+     position: relative;
+ top:90px;
+ left: 150px; 
+    background-color:hsl(0, 0%, 95%);
+    overflow: hidden;
+}
+
+ 
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     width:fit-content;
+margin: 50px 250px;
+  height: fit-content;
+ overflow: hidden;
+  position: relative; 
+  top:90px; 
+  left: 30px;
+ border-radius: 5px;
+ 
+ 
+    
+}
+
+p{
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+font-size: 15px;
+font-family:Montserrat;
+ }
+
+.card1{
+    background-color: hsl(31, 77%, 52%);
+height: fit-content;
+width:220px;
+color: white;
+padding:20px;
+font-size: 12px;
+overflow: hidden;
+}
+.btn1{
+    color:hsl(31, 77%, 52%) ;
+}
+h1{
+    font-weight: 700;
+    font-family: Montserrat;
+    color: hsl(0, 0%, 95%);
+    font-size: 15px;
+}
+.card2{
+    background-color: hsl(184, 100%, 22%);
+    height: fit-content;
+    width:230px;
+padding:20px;
+font-size: 12px;
+overflow: hidden;
+    color: white;
+    
+}
+.btn2{
+    color: hsl(184, 100%, 22%);
+}
+.card3{
+    background-color: hsl(179, 100%, 13%);
+    height: fit-content;
+    width:220px;
+    padding: 20px;
+    overflow: hidden;
+font-size: 12px;
+color: white;
+}
+.btn3{
+    color:hsl(179, 100%, 13%) ;
+}
+button{
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    width: 120px;
+    color: hsl(0, 0%, 95%);
+}
+  
